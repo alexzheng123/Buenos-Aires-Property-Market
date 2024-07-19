@@ -25,10 +25,10 @@ This notebook explores the relationship between house size and price. Various re
 - Regression equation: `house_price = -29,587.53 + 1696.71 * surface_covered`.
 
 **Visualizations:**
-- ![Histogram](images/fig2.1_hist.png)
-- ![Scatter Plot](images/fig2.2_scatter_plot.png)
-- ![Baseline Plot](images/fig2.3_baseline_plot.png)
-- ![Model Plot](images/fig2.4_model_plot.png)
+![Histogram](images/fig2.1_hist.png)
+![Scatter Plot](images/fig2.2_scatter_plot.png)
+![Baseline Plot](images/fig2.3_baseline_plot.png)
+![Model Plot](images/fig2.4_model_plot.png)
 
 ### 3. Predicting House Price with Location (buenos-aires3.0.ipynb)
 This notebook investigates how the location of a property influences its price. It includes geographical analysis and visualization to understand location-based price variations.
@@ -41,9 +41,9 @@ This notebook investigates how the location of a property influences its price. 
 - Model equation: `price = 279,991.86 + (-519.79 * longitude) + (729.02 * latitude)`.
 
 **Visualizations:**
-- ![Map](images/fig3.1_map.png) (Interactive version: [Map](images/fig3.1_map.html))
-- ![3D Scatter Plot](images/fig3.2_3d.png) (Interactive version: [3D Scatter Plot](images/fig3.2_3d.html))
-- ![3D Scatter Plot with Plane](images/fig3.3_3d.png) (Interactive version: [3D Scatter Plot with Plane](images/fig3.3_3d.html))
+![Map](images/fig3.1_map.png) (Interactive version: [Map](images/fig3.1_map.html))
+![3D Scatter Plot](images/fig3.2_3d.png) (Interactive version: [3D Scatter Plot](images/fig3.2_3d.html))
+![3D Scatter Plot with Plane](images/fig3.3_3d.png) (Interactive version: [3D Scatter Plot with Plane](images/fig3.3_3d.html))
 
 ### 4. Predicting Price with Neighborhood (buenos-aires4.0.ipynb)
 This notebook delves into the impact of neighborhood characteristics on house prices. It examines socio-economic factors and other neighborhood-specific attributes.
@@ -56,7 +56,7 @@ This notebook delves into the impact of neighborhood characteristics on house pr
 - Identified the most significant neighborhoods affecting house prices.
 
 **Visualizations:**
-- ![Feature Importance](images/fig4.1_feature_importance.png)
+![Feature Importance](images/fig4.1_feature_importance.png)
 
 ### 5. Explore (buenos-aires5.0.ipynb)
 This notebook is dedicated to further exploratory data analysis, uncovering hidden patterns and insights within the dataset.
@@ -67,7 +67,7 @@ This notebook is dedicated to further exploratory data analysis, uncovering hidd
 - Analyzed multicollinearity and removed less complete columns.
 
 **Visualizations:**
-- ![Heatmap](images/fig5.1_heatmap.png)
+![Heatmap](images/fig5.1_heatmap.png)
 
 ### 6. Predicting Price with Size, Location, and Neighborhood (buenos-aires6.0.ipynb)
 This comprehensive notebook combines size, location, and neighborhood factors to build a robust predictive model. It aims to provide a more accurate and holistic prediction of house prices.
