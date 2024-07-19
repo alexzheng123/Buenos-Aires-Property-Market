@@ -44,6 +44,7 @@ This notebook investigates how the location of a property influences its price. 
 
 ![Map](images/fig3.1_map.png)  
 Interactive version: [Map](images/fig3.1_map.html)
+
 ![3D Scatter Plot](images/fig3.2_3d.png)  
 Interactive version: [3D Scatter Plot](images/fig3.2_3d.html)
 ![3D Scatter Plot with Plane](images/fig3.3_3d.png)  
