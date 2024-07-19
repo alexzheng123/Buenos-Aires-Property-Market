@@ -41,6 +41,7 @@ This notebook investigates how the location of a property influences its price. 
 - Model equation: `price = 279,991.86 + (-519.79 * longitude) + (729.02 * latitude)`.
 
 **Visualizations:**
+
 ![Map](images/fig3.1_map.png)  
 Interactive version: [Map](images/fig3.1_map.html)
 
