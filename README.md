@@ -8,13 +8,12 @@ This project is focused on predicting housing prices in Buenos Aires based on va
 This notebook focuses on preparing the dataset for analysis. It includes data cleaning, handling missing values, and initial exploratory data analysis.
 
 **Key Steps:**
-- Imported 5 Buenos Aires property info Excel files.
 - Plotted a histogram of the `surface_covered_in_m2` column and observed its skewness.
 - Removed outliers by excluding the top and bottom 10% of `surface_covered_in_m2`.
 - Built a data wrangle function to filter data for houses and remove outliers.
 
 ### 2. Predicting House Price with Size (buenos-aires2.0.ipynb)
-This notebook explores the relationship between house size and price. Various regression models are applied to predict house prices based on the size of the property.
+This notebook explores the relationship between house size and price. A linear regression model is applied to predict house prices based on the size of the property.
 
 **Key Steps:**
 - Filtered the dataset for houses and removed null values.
@@ -51,13 +50,13 @@ Interactive version: [3D Scatter Plot](images/fig3.2_3d.html)
 Interactive version: [3D Scatter Plot with Plane](images/fig3.3_3d.html)
 
 ### 4. Predicting Price with Neighborhood (buenos-aires4.0.ipynb)
-This notebook delves into the impact of neighborhood characteristics on house prices. It examines socio-economic factors and other neighborhood-specific attributes.
+This notebook delves into the impact of neighborhood characteristics on house prices. It examines how different neighborhoods affect house prices. 
 
 **Key Steps:**
 - Imported and cleaned data, extracting neighborhood information.
 - Applied one-hot encoding to the neighborhood feature.
 - Built and evaluated a Ridge regression model to handle potential overfitting.
-- Baseline MAE: 144,036 USD, Training MAE: 122,533.66 USD.
+- Baseline MAE: 144,036, Training MAE: 122,533.66.
 - Identified the most significant neighborhoods affecting house prices.
 
 **Visualizations:**
@@ -72,6 +71,7 @@ This notebook is dedicated to further exploratory data analysis, uncovering hidd
 - Analyzed multicollinearity and removed less complete columns.
 
 **Visualizations:**
+
 ![Heatmap](images/fig5.1_heatmap.png)
 
 ### 6. Predicting Price with Size, Location, and Neighborhood (buenos-aires6.0.ipynb)
@@ -98,10 +98,10 @@ To run these notebooks, you will need to have the following Python libraries ins
 ## Data
 
 The data used in this project includes various features such as:
+- Property price in USD 
 - Property size (in square meters)
 - Location (latitude and longitude)
 - Neighborhood characteristics
-- Socio-economic factors
 
 ## How to Use
 
