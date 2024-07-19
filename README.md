@@ -41,12 +41,9 @@ This notebook investigates how the location of a property influences its price. 
 - Model equation: `price = 279,991.86 + (-519.79 * longitude) + (729.02 * latitude)`.
 
 **Visualizations:**
-![Map](images/fig3.1_map.png) 
-(Interactive version: [Map](images/fig3.1_map.html))
-![3D Scatter Plot](images/fig3.2_3d.png) 
-(Interactive version: [3D Scatter Plot](images/fig3.2_3d.html))
-![3D Scatter Plot with Plane](images/fig3.3_3d.png) 
-(Interactive version: [3D Scatter Plot with Plane](images/fig3.3_3d.html))
+![Map](images/fig3.1_map.png) (Interactive version: [Map](images/fig3.1_map.html))
+![3D Scatter Plot](images/fig3.2_3d.png) (Interactive version: [3D Scatter Plot](images/fig3.2_3d.html))
+![3D Scatter Plot with Plane](images/fig3.3_3d.png) (Interactive version: [3D Scatter Plot with Plane](images/fig3.3_3d.html))
 
 ### 4. Predicting Price with Neighborhood (buenos-aires4.0.ipynb)
 This notebook delves into the impact of neighborhood characteristics on house prices. It examines socio-economic factors and other neighborhood-specific attributes.
